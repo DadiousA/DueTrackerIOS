@@ -15,7 +15,6 @@ class DueNameTableViewController: UITableViewController, UITextFieldDelegate {
     @IBOutlet weak var DueNameTextField: UITextField!
     var dueName = ""
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
