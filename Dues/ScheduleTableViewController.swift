@@ -92,7 +92,7 @@ class ScheduleTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         let formatter = DateFormatter()
-        formatter.dateFormat = "EE, MMM,dd,yyyy"
+        formatter.dateFormat = "EE  MMM dd,yyyy"
         if Calendar.current.isDateInToday(scheduleIndexDate[section]){
             return "Today"
         }

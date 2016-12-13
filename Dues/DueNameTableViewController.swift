@@ -13,7 +13,7 @@ class DueNameTableViewController: UITableViewController, UITextFieldDelegate {
     // MARK: Properties
     
     @IBOutlet weak var DueNameTextField: UITextField!
-    var dueName = ""
+    var dueName = "" 
     
     override func viewDidLoad() {
         super.viewDidLoad()
